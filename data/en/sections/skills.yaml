@@ -13,59 +13,104 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Basic
-  filter: "basic"
 - name: Language
   filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
+- name: Frameworks 
+  filter: "frameworks"
+- name: Databases
+  filter: "databases"
+- name: DevOps
+  filter: "devops"
+- name: tools
+  filter: "tools"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+- name: JavaScript
+  logo: /images/sections/skills/javascript.png
+  summary: "Proficient in writing modern, clean JavaScript for web applications, including frontend and backend development."
+  categories: ["language"]
+  url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
 
-- name: Go Development
+- name: Go
   logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
+  summary: "Primary language for backend services. Skilled in writing scalable, testable, and maintainable Go applications."
+  categories: ["language"]
   url: "https://golang.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
-
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
-
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
-
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
-
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
-  url: "https://git-scm.com/"
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Used for scripting, automation, and web backend development. Experienced in Flask and data manipulation tasks."
+  categories: ["language"]
+  url: "https://www.python.org/"
 
 - name: C++
   logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+  summary: "Familiar with core C++ concepts. Used in algorithm problem solving and competitive programming."
+  categories: ["language"]
+
+- name: SQL
+  logo: /images/sections/skills/sql.png
+  summary: "Skilled in writing SQL queries for data analysis, reporting, and integration tasks."
+  categories: ["language", "databases"]
+
+- name: React
+  logo: /images/sections/skills/react.png
+  summary: "Built interactive frontend applications using React, including component design and state management."
+  categories: ["frameworks"]
+  url: "https://reactjs.org/"
+
+- name: VueJS
+  logo: /images/sections/skills/vue.png
+  summary: "Created dynamic user interfaces using VueJS with component-based architecture."
+  categories: ["frameworks"]
+  url: "https://vuejs.org/"
+
+- name: Node.js
+  logo: /images/sections/skills/nodejs.png
+  summary: "Developed server-side logic and APIs using Node.js, often paired with Express."
+  categories: ["frameworks"]
+  url: "https://nodejs.org/"
+
+- name: Express
+  logo: /images/sections/skills/express.png
+  summary: "Built RESTful APIs and middleware using Express.js in Node.js applications."
+  categories: ["frameworks"]
+  url: "https://expressjs.com/"
+
+- name: Flask
+  logo: /images/sections/skills/flask.png
+  summary: "Created lightweight backend applications and APIs using Python and Flask."
+  categories: ["frameworks"]
+  url: "https://flask.palletsprojects.com/"
+
+- name: Microsoft SQL
+  logo: /images/sections/skills/mssql.png
+  summary: "Worked with complex queries, procedures, and data modeling in MS SQL Server."
+  categories: ["databases"]
+  url: "https://www.microsoft.com/en-us/sql-server"
+
+- name: MongoDB
+  logo: /images/sections/skills/mongodb.png
+  summary: "Designed and queried NoSQL databases using MongoDB, suitable for flexible schemas."
+  categories: ["databases"]
+  url: "https://www.mongodb.com/"
+
+- name: Docker
+  logo: /images/sections/skills/docker.png
+  summary: "Containerized applications using Docker with multi-stage builds and optimized images."
+  categories: ["devops"]
+  url: "https://www.docker.com/"
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Version control using Git with experience in branching, merging, and resolving conflicts. Familiar with GitHub and GitLab."
+  categories: ["tools"]
+  url: "https://git-scm.com/"
+
+- name: Jira
+  logo: /images/sections/skills/jira.png
+  summary: "Used for issue tracking and project management in Agile environments."
+  categories: ["tools"]
+  url: "https://www.atlassian.com/software/jira"
