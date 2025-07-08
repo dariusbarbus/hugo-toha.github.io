@@ -11,63 +11,40 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
+    name: Softnyx
+    location: Lima - Peru
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company1.jpg
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: Softnyx is a veteran game studio known for online and mobile multiplayer titles with a strong global footprint and a track record of supporting long-running communities.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Software Developer
+    start: "2019"
+    end: "2022"
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - Developed an internal tool using VueJS and Flask to better manage shared resources.
+    - Implemented an AR system in Instagram to drive engagement.
+    - Built a new web service using React, Flask, and SQL for championship registrations, significantly improving transaction speed over the previous solution.
+    - Mentored two junior developers and led regular code reviews.
+    - Managed task tracking and sprints using Jira.
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
+    name: Impulse
+    location: Lima - Peru
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    overview: Impulse is a pioneering Peruvian inbound agency combining HubSpot expertise, content-driven strategies, and measurable outcomes to fuel scalable growth across Latin America.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Junior Software Developer
+    start: "2017"
+    end: "2018"
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
-
-- company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
-  positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
-    responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Maintained and improved client websites built with PHP and MySQL.
+    - Implemented new website for client using React and OpenGL for interactive 3D models.
+    - New website drove engagement up 40% compared to previous campaigns.
+    - Improved front-end UX client sites with JavaScript, Bootstrap, and form validation.
+    - Set up CI/CD pipelines with GitHub Actions for client websites to test new features prior to campaign launch.
