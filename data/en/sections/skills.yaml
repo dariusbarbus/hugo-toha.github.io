@@ -21,7 +21,7 @@ buttons:
   filter: "databases"
 - name: DevOps
   filter: "devops"
-- name: tools
+- name: Tools
   filter: "tools"
 
 # Your Skills.
