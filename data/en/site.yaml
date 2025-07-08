@@ -22,7 +22,7 @@ customMenus:
 
 # Specify OpenGraph Headers
 openGraph:
-  title: Darop So,[spm]
+  title: Dario Simpson
   type: website
   description: Portfolio blog of Dario Simpson.
   image: images/author/john.png
